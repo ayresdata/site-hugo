@@ -1,0 +1,118 @@
+theme = "hugo-creative-theme"
+baseurl = "http://ayres.io/"
+title = "Ayres Data Team"
+languageCode = "en-es"
+googleAnalytics = "UA-86497477-1"
+twitter = "@ayresdata"
+
+[params]
+
+	#
+	# Company Color ff8c00 / 339966
+	#
+
+	# Images source (Thanks!):
+	# Golang + Rethink from https://github.com/dancannon/gorethink
+	# https://pixabay.com/en/puerto-madero-buenos-aires-argentina-588392/ 
+	# https://pixabay.com/en/log-night-port-buenos-aires-1684793/ 
+
+	# Theme: http://themes.gohugo.io/creative/
+
+	# Made with Hugo
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Ayres Data Team"
+	description = "Plug our team into your data architecture."
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+	#favicon = "../statis/img/Aryes/SmallLogo.png"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Ayres Data Remote Data Team"
+
+		[params.navigation.links]
+			about     = "Nosotros"
+			services  = "Servicios"
+			portfolio = "Tecnologías"
+			contact   = "Contacto"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Enchufe un _Ayres Remote Data Team_ a su arquitectura de datos."
+		subtitle   = "Comprometidos con la comunidad de Código Abierto, como motor de aprender a trabajar tirando barreras."
+		buttonText = "Sepa más de nosotros"
+
+
+	# About section
+	[params.about]
+		headline    = "Materialize nuestra experiencia en su stack."
+		description = "El equipo de [Ayres](//ayres.io) posee años de experiencia en proyectos de envergadura internacional acumulada en pos de llevar _su_ implementación al siguiente nivel."
+		buttonText  = "¡Bienvenido!"
+
+
+	# Service section
+	[params.services]
+		headline = "Servicios"
+
+        [[params.services.list]]
+            icon = "fa-clock-o"
+            title = "Consultoría"
+            description = "Migraciones, escalamiento horizontal y vertical, análisis de rendimiento."
+
+        [[params.services.list]]
+			icon = "fa-play"
+			title = "Soporte de mediano plazo"
+			description = "Acceda a los conocimientos de nuestro equipo y reciba las recomendaciones que necesita sin necesidad de contratos extra."
+
+		[[params.services.list]]
+            icon = "fa-newspaper-o"
+            title = "Mentoring"
+            description = "El programa de mentoring permite capacitar en tiempo real a su equipo de DBA."
+
+        [[params.services.list]]
+            icon = "fa-star"
+            title = "Capacitaciones"
+            description = "Nuestras micro capacitaciones son flexibles y puntuales, permitiendo que su equipo adquiera los conocimientos necesarios de manera eficiente, sin afectar considerablemente la disponibilidad de su servicio."
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        #date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "¿Quiere leer nuestros blog posts?"
+
+		# Quizas este bueno para descargar un PDF, pero por ahora no.
+		[params.aside.button]
+			text = "¡Estamos trabajando en ellos! :D"
+			link = "//ayres.io/"
+
+	# Contact section
+	[params.contact]
+		headline = "¡Contáctanos!"
+		description = "Si quieres saber más sobre lo que podemos hacer por tu proyecto, déjanos un mail."
+		phone = "+54 9 11 "
+		email = "hola@ayres.io"
+		twitter = "@ayresdata"

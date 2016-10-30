@@ -1,0 +1,8 @@
+modalID: 5
+title: RethinkDB
+#date: 2014-07-09
+img: rethink_and_golang.png
+client: RethinkDB
+clientLink: "https://www.rethinkdb.com/"
+category: Document Store
+description: Si no ha escuchado hablar de RethinkDB, es hora de que nos deje mostrarle las bondades de este motor para aplicaciones web en _tiempo real_. Ha pasado las pruebas Jepsen y es la opción vibrante de muchas startups. 
