@@ -3,6 +3,11 @@
 rm -rf public/
 git submodule add -b master git@github.com:ayresdata/ayresdata.github.io.git public
 
+
+cd themes/ayres-theme
+git pull
+cd ../..
+
 # Add the gh-pages branch of the repository. It will look like a folder named public
 #git subtree add --prefix=public git@github.com:ayresdata/ayresdata.github.io.git master --squash
 

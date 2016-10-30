@@ -13,10 +13,7 @@
    version="1.1"
    id="svg3434"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="SVGlogo_CLEAN.svg"
-   inkscape:export-filename="/Users/emanuel/git/site-hugo/static/img/Ayres/svg/SVGlogo_CLEAN.png"
-   inkscape:export-xdpi="90"
-   inkscape:export-ydpi="90">
+   sodipodi:docname="SVGlogo_NEW.svg">
   <metadata
      id="metadata3492">
     <rdf:RDF>
@@ -45,12 +42,12 @@
      id="namedview3488"
      showgrid="false"
      inkscape:zoom="2.6289655"
-     inkscape:cx="268.99921"
+     inkscape:cx="300"
      inkscape:cy="181.25"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="surface4" />
+     inkscape:current-layer="svg3434" />
   <g
      id="surface2"
      transform="matrix(2.0653592298743226,0,0,2.0653592298743226,-259.6862151698376,-33.62089376919165)">
@@ -156,6 +153,13 @@
        transform="matrix(1.6132054,0,0,1.6132054,132.04964,165.35407)"
        xml:space="preserve"
        id="text3484"><![CDATA[Ayres]]></text>
+    <text
+       style="font-size:24.41038322px;font-family:'Futura Md BT';fill:#ffffff"
+       font-size="35"
+       xml:space="preserve"
+       id="text3486"
+       x="177.43709"
+       y="202.32042"><![CDATA[Data Team]]></text>
     <path
        style="fill:#339966;fill-opacity:1"
        d="m 222.10349,296.18614 -1.25039,-0.66681 1.53568,-0.86309 1.53567,-0.8631 0,1.54585 c 0,1.73972 -0.0786,1.7763 -1.82096,0.84715 z"
