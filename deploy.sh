@@ -2,6 +2,8 @@
 
 rm -rf public/
 
+sleep 0.5
+
 git submodule add -b master git@github.com:ayresdata/ayresdata.github.io.git public
 
 sleep 1
