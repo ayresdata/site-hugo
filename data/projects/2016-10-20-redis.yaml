@@ -1,0 +1,8 @@
+modalID: 7
+title: Redis
+#date: 2014-07-09
+img: 3.jpg
+client: Redis
+clientLink: "http://redis.io"
+category: Desarrollo
+description: Si bien nuestros miembros tienen experiencia en lenguajes como Bash, Python, Perl, C entre otros, creemos que Golang es el lenguaje que será disruptivo en lo que respecta a desarrollo de backends.
