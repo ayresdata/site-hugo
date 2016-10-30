@@ -39,6 +39,8 @@ git push origin master
 
 	  # Come Back
 cd ..
+
+git subtree push --prefix=public git@github.com:ayresdata/ayresdata.github.io.git master
 #git subtree add -A --prefix=public git@github.com:ayresdata/ayresdata.github.io.git master
 
 #git subtree push --prefix=public git@github.com:ayresdata/ayresdata.github.io.git gh-pages
