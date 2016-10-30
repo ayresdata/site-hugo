@@ -1,17 +1,17 @@
 #!/bin/bash
 
-rm -rf public/
+#rm -rf public/
 
 sleep 0.5
 
-git submodule add -b master git@github.com:ayresdata/ayresdata.github.io.git public
+#git submodule add -b master git@github.com:ayresdata/ayresdata.github.io.git public
 
 sleep 1
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 # Build the project.
-hugo -t hugo-creative-theme # if using a theme, replace by `hugo -t <yourtheme>`
+hugo -t "hugo-creative-theme" # if using a theme, replace by `hugo -t <yourtheme>`
 
 # Go To Public folder
 cd public
