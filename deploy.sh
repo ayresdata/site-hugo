@@ -24,10 +24,14 @@ if [ $# -eq 1 ]
 	  then msg="$1"
 fi
 
-git commit -m "$msg"
+git commit -a -m "$msg"
 
 	  # Push source and build repos.
 git push origin master
 
+git push
+
 	  # Come Back
 cd ..
+
+
