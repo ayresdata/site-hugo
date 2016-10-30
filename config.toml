@@ -39,7 +39,7 @@ twitter = "@ayresdata"
 
 	# The path must be relative to the static folder
 	favicon = "favicon.ico"
-	#favicon = "../statis/img/Aryes/SmallLogo.png"
+	#favicon = "../static/img/Aryes/SmallLogo.png"
 
 
 	# Navigation
