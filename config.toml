@@ -104,7 +104,7 @@ https = true
 	[params.contact]
 		headline = "¡Contáctanos!"
 		description = "Si quieres saber más sobre lo que podemos hacer por tu proyecto, déjanos un mail."
-		phone = "+54 9 11 "
+		phone = ""
 		twitter = "@ayresdata"
 		email = "hola@ayres.io"
 		
