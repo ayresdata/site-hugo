@@ -1,5 +1,5 @@
 theme = "ayres-theme"
-baseurl = "https://ayres.io/"
+baseurl = "http://ayres.io/"
 title = "Ayres Data Team"
 languageCode = "en-es"
 googleAnalytics = "UA-86497477-1"
