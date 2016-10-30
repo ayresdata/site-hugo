@@ -2,6 +2,14 @@
 
 rm -rf public/
 
+
+# Add the gh-pages branch of the repository. It will look like a folder named public
+#git subtree add --prefix=public git@github.com:ayresdata/ayresdata.github.io.git master --squash
+
+# Pull down the file we just committed. This helps avoid merge conflicts
+#git subtree pull --prefix=public git@github.com:ayresdata/ayresdata.github.io.git master
+
+
 sleep 0.5
 
 #git submodule add -b master git@github.com:ayresdata/ayresdata.github.io.git public
@@ -31,8 +39,9 @@ git push origin master
 
 	  # Come Back
 cd ..
+#git subtree add -A --prefix=public git@github.com:ayresdata/ayresdata.github.io.git master
 
-git subtree push --prefix=public git@github.com:ayresdata/ayresdata.github.io.git gh-pages
-git subtree pull --prefix=public git@github.com:ayresdata/ayresdata.github.io.git master
-git subtree push --prefix=public git@github.com:ayresdata/ayresdata.github.io.git master
-git push 
+#git subtree push --prefix=public git@github.com:ayresdata/ayresdata.github.io.git gh-pages
+#git subtree pull --prefix=public git@github.com:ayresdata/ayresdata.github.io.git master
+#git subtree push --prefix=public git@github.com:ayresdata/ayresdata.github.io.git master
+#git push 
