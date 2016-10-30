@@ -4,6 +4,7 @@ title = "Ayres Data Team"
 languageCode = "en-es"
 googleAnalytics = "UA-86497477-1"
 #twitter = "@ayresdata"
+https = true 
 
 [params]
 
