@@ -1,8 +1,0 @@
-modalID: 3
-title: PostgreSQL
-#date: 2014-07-07
-img: postgresql.jpg
-client: PostgreSQL
-clientLink: "http://www.postgresql.org"
-category: Relacionales
-description: PostgreSQL es una de las principales opciones para Bases de Datos Relacionales que requieran estructuras lógicas complejas. Junto con MySQL y MariaDB, compone el ecosistema de bases relacionales libres. La comunidad de PostgreSQL ha sabido llevar a este motor, hacia un framework de datos. 

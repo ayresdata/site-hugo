@@ -1,8 +1,0 @@
-modalID: 6
-title: Golang
-#date: 2014-07-09
-img: gopherHead.png
-client: Golang
-clientLink: "http://golang.org"
-category: Desarrollo
-description: Si bien nuestros miembros tienen experiencia en lenguajes como Bash, Python, Perl, C entre otros, creemos que Golang es el lenguaje que será disruptivo en lo que respecta a desarrollo de backends.
