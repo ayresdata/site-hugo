@@ -1,4 +1,4 @@
-theme = "hugo-creative-theme"
+theme = "ayres-theme"
 baseurl = "http://ayres.io/"
 title = "Ayres Data Team"
 languageCode = "en-es"
