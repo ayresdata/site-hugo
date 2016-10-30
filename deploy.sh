@@ -33,5 +33,6 @@ git push origin master
 cd ..
 
 git subtree push --prefix=public git@github.com:ayresdata/ayresdata.github.io.git gh-pages
+git subtree pull --prefix=public git@github.com:ayresdata/ayresdata.github.io.git master
 git subtree push --prefix=public git@github.com:ayresdata/ayresdata.github.io.git master
 git push 
