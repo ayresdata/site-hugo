@@ -28,11 +28,9 @@ git commit -a -m "$msg"
 
 	  # Push source and build repos.
 git push origin master
-git subtree push --prefix=public git@github.com:ayresdata/ayresdata.github.io.git gh-pages
-
-git push
 
 	  # Come Back
 cd ..
 
-
+git subtree push --prefix=public git@github.com:ayresdata/ayresdata.github.io.git gh-pages
+git push 
