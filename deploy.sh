@@ -16,6 +16,8 @@ hugo -t "hugo-creative-theme" # if using a theme, replace by `hugo -t <yourtheme
 # Go To Public folder
 cd public
 # Add changes to git.
+echo "ayres.io" > CNAME
+
 git add -A
 
 # Commit changes.
