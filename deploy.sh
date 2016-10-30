@@ -1,7 +1,7 @@
 #!/bin/bash
 
 rm -rf public/
-
+git submodule add -b master git@github.com:ayresdata/ayresdata.github.io.git public
 
 # Add the gh-pages branch of the repository. It will look like a folder named public
 #git subtree add --prefix=public git@github.com:ayresdata/ayresdata.github.io.git master --squash
@@ -26,6 +26,7 @@ cd public
 
 git add -A
 
+
 # Commit changes.
 msg="rebuilding site `date`"
 if [ $# -eq 1 ]
@@ -40,7 +41,10 @@ git push origin master
 	  # Come Back
 cd ..
 
-# git subtree push --prefix=public git@github.com:ayresdata/ayresdata.github.io.git master
+#git subtree pull --prefix=public git@github.com:ayresdata/ayresdata.github.io.git master
+
+#git subtree push --prefix=public git@github.com:ayresdata/ayresdata.github.io.git master
+
 #git subtree add -A --prefix=public git@github.com:ayresdata/ayresdata.github.io.git master
 
 #git subtree push --prefix=public git@github.com:ayresdata/ayresdata.github.io.git gh-pages
