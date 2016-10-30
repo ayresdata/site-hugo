@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#rm -rf public/
+rm -rf public/
 
 sleep 0.5
 
