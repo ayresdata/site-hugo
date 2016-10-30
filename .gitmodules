@@ -2,7 +2,3 @@
 	path = themes/ayres-theme
 	url = git@github.com:ayresdata/ayres-theme.git
 	branch = master
-[submodule "public"]
-	path = public
-	url = git@github.com:ayresdata/ayresdata.github.io.git
-	branch = master

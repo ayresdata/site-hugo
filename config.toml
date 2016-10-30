@@ -1,5 +1,5 @@
 theme = "ayres-theme"
-baseurl = "https://ayresdata.github.io"
+baseurl = "https://ayresdata.github.io//"
 title = "Ayres Data Team"
 languageCode = "en-es"
 googleAnalytics = "UA-86497477-1"
@@ -12,26 +12,18 @@ https = true
 	# Company Color ff8c00 / 339966
 	#
 
+	# Acknowledgements:
 	# Images source (Thanks!):
 	# Golang + Rethink from https://github.com/dancannon/gorethink
 	# https://pixabay.com/en/puerto-madero-buenos-aires-argentina-588392/ 
 	# https://pixabay.com/en/log-night-port-buenos-aires-1684793/ 
-
 	# Theme: http://themes.gohugo.io/creative/
-
 	# Made with Hugo
 
-	# You can use Markdown syntax for urls [text](//url.to/source) for
-	# most longer texts.
 
 	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
 	# for more icons. The icons are represented by their corresponding
 	# CSS class.
-
-	# All projects of the portfolio are defined in their own files.
-	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
-	# folder into the 'data' directory at the root of this Hugo site.
-	# For more information take a look at the README.
 
 	# To provide some metadata for search engines feel free to add some
 	# information about you and your website.
@@ -63,7 +55,7 @@ https = true
 	# About section
 	[params.about]
 		headline    = "Materialize nuestra experiencia en su stack."
-		description = "El equipo de [Ayres](//ayres.io) posee años de experiencia en proyectos de envergadura internacional acumulada en pos de llevar _su_ implementación al siguiente nivel."
+		description = "El equipo de [Ayres](//ayres.io/) posee años de experiencia en proyectos de envergadura internacional acumulada en pos de llevar _su_ implementación al siguiente nivel."
 		buttonText  = "¡Bienvenido!"
 
 
@@ -105,7 +97,7 @@ https = true
 
 		# Quizas este bueno para descargar un PDF, pero por ahora no.
 		[params.aside.button]
-			text = "¡Estamos trabajando en ellos! :D"
+			text = "¡Estamos trabajando en ellos! Stay tuned. :D"
 			link = "//ayres.io/"
 
 	# Contact section
