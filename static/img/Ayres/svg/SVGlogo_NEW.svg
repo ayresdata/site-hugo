@@ -22,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -38,16 +38,18 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1893"
-     inkscape:window-height="1122"
+     inkscape:window-height="1058"
      id="namedview3488"
      showgrid="false"
      inkscape:zoom="2.6289655"
      inkscape:cx="300"
      inkscape:cy="181.25"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="23"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg3434" />
+     inkscape:current-layer="surface4"
+     inkscape:snap-text-baseline="true"
+     showguides="false" />
   <g
      id="surface2"
      transform="matrix(2.0653592298743226,0,0,2.0653592298743226,-259.6862151698376,-33.62089376919165)">
@@ -148,18 +150,21 @@
      id="surface4"
      transform="matrix(0.94952014,0,0,0.88227164,1.8995664,7.2600487)">
     <text
-       style="font-size:53px;font-family:'Futura Md BT';fill:#ffffff"
+       style="font-size:85.49988556px;font-family:'Futura Md BT';fill:#ffffff"
        font-size="53"
-       transform="matrix(1.6132054,0,0,1.6132054,132.04964,165.35407)"
        xml:space="preserve"
-       id="text3484"><![CDATA[Ayres]]></text>
+       id="text3484"
+       x="131.6465"
+       y="167.76842"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:74.29432678px;font-family:'Futura Md BT';-inkscape-font-specification:'Futura Md BT Bold'"
+         id="tspan3361"><![CDATA[Ayres]]></tspan></text>
     <text
        style="font-size:24.41038322px;font-family:'Futura Md BT';fill:#ffffff"
        font-size="35"
        xml:space="preserve"
        id="text3486"
-       x="177.43709"
-       y="202.32042"><![CDATA[Data Team]]></text>
+       x="182.56477"
+       y="211.28801"><![CDATA[Data Team]]></text>
     <path
        style="fill:#339966;fill-opacity:1"
        d="m 222.10349,296.18614 -1.25039,-0.66681 1.53568,-0.86309 1.53567,-0.8631 0,1.54585 c 0,1.73972 -0.0786,1.7763 -1.82096,0.84715 z"
