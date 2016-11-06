@@ -24,3 +24,15 @@ git push origin master
 git submodule add -b master git@github.com:ayresdata/ayres-theme.git themes/ayres-theme
 
 git submodule add --force -b master git@github.com:ayresdata/ayresdata.github.io.git public
+
+
+
+# Add META in index.html
+
+
+```
+<meta name="google-site-verification" content="GkFpqfkHB84Gu_GSB-jgkDzF67G9SNtc7VWvA7tKUi4" />
+```
+
+
+
