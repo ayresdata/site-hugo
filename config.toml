@@ -54,8 +54,8 @@ https = true
 
 	# About section
 	[params.about]
-		headline    = "Materialize nuestra experiencia en su stack."
-		description = "El equipo de [Ayres](//ayres.io/) posee años de experiencia en proyectos de envergadura internacional acumulada en pos de llevar _su_ implementación al siguiente nivel."
+		headline    = "Sabemos lo que las start ups van a necesitar, porque hemos estado ello todo este tiempo."
+		description = "El equipo de [Ayres](//ayres.io/) posee años de experiencia en conjunto en tecnologías de datos. Buscamos ser el potrero de los nuevos DBA/Data Specialists de la región. ¡Queremos que seas parte! :) "
 		buttonText  = "¡Bienvenido!"
 
 
@@ -104,7 +104,7 @@ https = true
 	[params.contact]
 		headline = "¡Contáctanos!"
 		description = "Si quieres saber más sobre lo que podemos hacer por tu proyecto, déjanos un mail."
-		phone = ""
+		phone = "+549 / 11 2393 3942"
 		twitter = "@ayresdata"
 		email = "hola@ayres.io"
 		

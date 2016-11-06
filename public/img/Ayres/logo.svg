@@ -13,7 +13,10 @@
    version="1.1"
    id="svg3434"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="SVGlogo_NEW.svg">
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="/Users/emanuel/git/site-hugo/static/img/Ayres/logo.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <metadata
      id="metadata3492">
     <rdf:RDF>
@@ -22,12 +25,80 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs3490" />
+     id="defs3490">
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Clean Edges"
+       id="filter3383">
+      <feGaussianBlur
+         stdDeviation="0.3"
+         result="blur"
+         id="feGaussianBlur3385" />
+      <feComposite
+         in="SourceGraphic"
+         in2="blur"
+         operator="in"
+         result="composite1"
+         id="feComposite3387" />
+      <feComposite
+         in="composite1"
+         in2="composite1"
+         k2="1"
+         operator="in"
+         result="fbSourceGraphic"
+         id="feComposite3389" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix3407" />
+      <feGaussianBlur
+         id="feGaussianBlur3409"
+         stdDeviation="0.2"
+         result="blur"
+         in="fbSourceGraphic" />
+      <feComposite
+         id="feComposite3411"
+         in2="blur"
+         in="fbSourceGraphic"
+         operator="in"
+         result="composite1" />
+      <feComposite
+         id="feComposite3413"
+         in2="composite1"
+         in="composite1"
+         k2="1"
+         operator="in"
+         result="composite2" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Clean Edges"
+       id="filter3399">
+      <feGaussianBlur
+         stdDeviation="0.4"
+         result="blur"
+         id="feGaussianBlur3401" />
+      <feComposite
+         in="SourceGraphic"
+         in2="blur"
+         operator="in"
+         result="composite1"
+         id="feComposite3403" />
+      <feComposite
+         in="composite1"
+         in2="composite1"
+         k2="1"
+         operator="in"
+         result="composite2"
+         id="feComposite3405" />
+    </filter>
+  </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -41,9 +112,9 @@
      inkscape:window-height="1058"
      id="namedview3488"
      showgrid="false"
-     inkscape:zoom="2.6289655"
-     inkscape:cx="300"
-     inkscape:cy="181.25"
+     inkscape:zoom="1.8589593"
+     inkscape:cx="144.03888"
+     inkscape:cy="232.89489"
      inkscape:window-x="0"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
@@ -150,21 +221,26 @@
      id="surface4"
      transform="matrix(0.94952014,0,0,0.88227164,1.8995664,7.2600487)">
     <text
-       style="font-size:85.49988556px;font-family:'Futura Md BT';fill:#ffffff"
+       style="font-size:92.17139435px;font-family:'Futura Md BT';fill:#ffffff;filter:url(#filter3383)"
        font-size="53"
        xml:space="preserve"
        id="text3484"
-       x="131.6465"
-       y="167.76842"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:74.29432678px;font-family:'Futura Md BT';-inkscape-font-specification:'Futura Md BT Bold'"
+       x="141.91879"
+       y="158.33244"
+       transform="matrix(0.92761848,0,0,1.2242623,0.32047999,-10.91715)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:80.09146881px;font-family:'Futura Md BT';-inkscape-font-specification:'Futura Md BT Bold'"
          id="tspan3361"><![CDATA[Ayres]]></tspan></text>
     <text
-       style="font-size:24.41038322px;font-family:'Futura Md BT';fill:#ffffff"
+       style="font-size:24.41038322px;font-family:'Futura Md BT';fill:#ffffff;filter:url(#filter3399)"
        font-size="35"
        xml:space="preserve"
        id="text3486"
-       x="182.56477"
-       y="211.28801"><![CDATA[Data Team]]></text>
+       x="218.92403"
+       y="201.47458"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Futura Md BT';-inkscape-font-specification:'Futura Md BT Bold'"
+         id="tspan3381">data team</tspan></text>
     <path
        style="fill:#339966;fill-opacity:1"
        d="m 222.10349,296.18614 -1.25039,-0.66681 1.53568,-0.86309 1.53567,-0.8631 0,1.54585 c 0,1.73972 -0.0786,1.7763 -1.82096,0.84715 z"
