@@ -47,8 +47,8 @@ https = true
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "Enchufe un _Ayres Remote Data Team_ a su arquitectura de datos."
-		subtitle   = "Comprometidos con la comunidad de Código Abierto, como motor de aprender a trabajar tirando barreras."
+		slogan     = "Un equipo comprometido con la comunidad de Código Abierto"
+		subtitle   = "Elegimos al Código Abierto no solo como filosofía de trabajo, sino también como de inclusividad. Elegimos a el Código Abierto como vos lo hiciste."
 		buttonText = "Sepa más de nosotros"
 
 

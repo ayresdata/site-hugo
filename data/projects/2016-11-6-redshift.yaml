@@ -1,0 +1,8 @@
+modalID: 8
+title: Redshift
+#date: 2014-07-09
+img: redshift.png
+client: Redshift
+clientLink: "http://redis.io"
+category: Almacenamiento en columnas en paralelo
+description: Redshift es una tecnología basada en PostgreSQL y Redsfhit, diseñada para implementar almacenamiento de grandes cantidades de datos de manera compacta y eficiente para análisis de datos. Permite distribuir los datos a varios nodos, permitiendo paralelizar la fase de mapeo. Nuestros expertos usan esta tecnología desde su salida a producción.
